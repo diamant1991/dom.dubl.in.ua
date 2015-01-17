@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<title>Landing</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" >
+	<meta name="description" content="" >
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
+	<link rel="stylesheet" href="css/modal-contact.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="js/jquery.fancybox-1.3.4.js"></script>
+	<script src="js/jquery.mousewheel-3.0.4.pack.js"></script>	
+	<script src="js/dm-modal.js"></script>
+	<script src="js/viewportchecker.js"></script> 
+	<script src="js/main.js"></script>
+
+</head>
+<body>
+
+
+		 <nav class="main-nav dark">
+            <ul>
+                <li class="current"><a href="#section1"><span>Приветствие</span></a></li>
+                <li class="dark"><a href="#section2"><span>Вкратце о нас</span></a></li>
+                <li class=""><a href="#section3"><span>Основные качества</span></a></li>
+                <li class="dark"><a href="#section4"><span>Фото</span></a></li>
+                <li class=""><a href="#section5"><span>Выбирайте площадь</span></a></li>
+                <li class="dark"><a href="#section6"><span>Что мы делаем</span></a></li>
+                <li class=""><a href="#section7"><span>Доверят и помогают</span></a></li>
+                <li class=""><a href="#section8"><span>Получить предложение</span></a></li>
+            </ul>
+       	 </nav>
+
+      
+        <div class="content">
+        	<section id="section1">
+        		<div class="img post"></div>
+        		<div class="img-2 post"></div>
+        	<div class="header-info">
+        			<div class="wrapper-section">
+        			<div class="logo-text">
+        				<img src="images/logo.png" alt="">
+        				<p>мастерская  <span>загородных домов</span> </p>
+        			</div>
+        			<a href="#" class="small-img p-abs" id="click-2" onclick="opcl(mydivs, '.img'); return false;">
+        				<p>профилированный <br>брус</p>
+        				<p>бревно <br> оцилиндрованное</p>
+        				<img src="images/header-small.png" alt="">
+        			</a>
+        			<a href="#" class="small-img" id="click-1" onclick="opcl(mydivs, '.img-2'); return false;">
+        			<p>брус/бревно</p>
+        			<p>газоблок</p>
+        				<img src="images/header-small.png" alt="">
+        			</a>
+        			<div class="header-text">
+        				<p>Деревянные и Комбинированные дома</p>
+        				<p>8(495)772-11-62</p>
+        				<p>м.Алтуфьево, ул. Новгородская, 1/5 </p>
+        				<p>понедельник-пятница, с 9.00 до 18.00 </p>
+        			</div>
+        			<div class="header-checkbox">
+        				<img src="images/shag.jpg" alt="">
+        				<div class="radio">
+
+   						 <input id="dom1" type="radio" name="gender" value="dom1">
+
+    					<label for="dom1">Выбираю дом из бруса</label>
+							
+   						 <input id="dom2" type="radio" name="gender" value="dom2">
+
+    						<label for="dom2">Выбираю дом из бревна</label>
+						
+						<input id="dom3" type="radio" name="gender" value="dom3">
+
+    						<label for="dom3">Выбираю комбинированный дом</label>
+					</div>
+
+        			</div>
+        			</div>
+        		</div>
+        	</section>
+
+        	<section class="section2" id="section2">
+        		<div class="wrapper-section">
+        			<div class="inner">
+        				<div class="description">
+        				<h2>Вкратце о себе</h2>
+							 <p>
+							    Свою свадьбу я не только организовал, но и провел сам, поэтому я понимаю, через какие терни вам
+							    приходится проходить, мои дорогие молодожены. Я постараюсь максимально упростить подготовку к
+							    свадьбе вашей мечты. При первой же встрече вы поймете, что я вас не подведу. 
+							</p>   
+							<p>
+							    Празднование круглой даты или корпоратив компании - также ответственное мероприятие, которое требует
+							    опытного, интеллигентного, но при этом веселого и уверенного ведущего, который будет направлять
+							    течение праздника
+							    в нужное для виновников торжества русло. 
+							</p> 
+							<p>
+							    Давайте скорее встречаться и знакомиться!
+							</p>
+                       </div>
+        			</div>
+        		</div>
+        	</section>
+
+        	<div class="section3" id="section3">
+        		<div class="wrapper-section clear">
+        			<h3>Основные качества</h3>
+        			<ul class="list"> 	
+				        <li class="clearfix" id="bx_3218110189_9">
+				        <div class="img-wrap">
+				            <img src="images/cbb250712b4fa8603f45ae013de18f5d.png" alt="">
+				        </div>
+				        <div class="description">
+				            <h4>Профессионализм и экспертность</h4>
+
+				            <p>Каждый гость на любом праздновании, будь то свадьба или юбилей, должен чувствовать себя комфортно. А виновникам торжества не должно быть стыдно за человека, которому они доверили управлять этим самым торжеством.</p>
+				        </div>
+				  	  </li>
+      
+				        <li class="clearfix" id="bx_3218110189_8">
+				        <div class="img-wrap">
+				            <img src="images/380036ce7ce258a70adbaf6282acb569.png" alt="">
+				        </div>
+				        <div class="description">
+				            <h4>Творческий подход и трудолюбие</h4>
+
+				            <p>В меру шуток, чтобы не превратить праздник в цирк. В меру тостов, чтобы застолье не стало пьянкой. В меру конкурсов, чтобы торжество не перешло в веселые старты.</p>
+				        </div>
+				   		 </li>
+  
+				        <li class="clearfix" id="bx_3218110189_7">
+				        <div class="img-wrap">
+				            <img src="images/ba6f5e1da69972b2c2f1e88eae717f5f.png" alt="">
+				        </div>
+				        <div class="description">
+				            <h4>Надежность и гарантии</h4>
+
+				            <p>Все люди разные, и торжества их не могут дублироваться. Повод может быть схож, но наполнение у каждого события различно. Согласно вашим пожеланиям разрабатывается индивидуальный сценарий с индивидуальными конкурсами, поздравлениями и общим стилем торжества.</p>
+				        </div>
+				       </li>
+     
+					</ul>
+        		</div>
+        	</div>
+			<div class="section4" id="section4">
+        		<div class="wrapper-section-gallery clearfix">
+	        		<div class="left-gallery">
+	        			<div class="fancy-container">
+	        				<a href="images/dom-1.small.jpg" class="test"><img src="" alt="" class="small-view"></a>
+	        			</div>
+	        			<div class="fancy-container fancy-left">
+	        				<a href="images/dom-1.small.jpg" class="test"><img src="" alt="" class="small-view small-view-2"></a>
+	        			</div>
+	        			<div class="fancy-container fancy-left">
+	        				<a href="images/dom-2.small.jpg" class="test"><img src="" alt="" class="small-view small-view-3"></a>
+	        			</div>
+	        		</div>
+	        		<div class="center-gallery">
+	        			<div class="fancy-container">
+	        				<a href="images/dom-1.small.jpg" class="test"><img src="" alt="" class="small-view"></a>
+	        			</div>
+	        			<div class="fancy-container">
+	        				<a href="images/dom-2.small.jpg" class="test"><img src="" alt="" class="small-view small-view-3"></a>
+	        			</div>
+	        		</div>
+	        		<div class="right-gallery">
+	        			<div class="fancy-container fancy-left">
+	        				<a href="images/dom-1.small.jpg" class="test"><img src="" alt="" class="small-view"></a>
+	        			</div>
+	        			<div class="fancy-container fancy-left">
+	        				<a href="images/dom-1.small.jpg" class="test"><img src="" alt="" class="small-view"></a>
+	        			</div>
+	        			<div class="fancy-container">
+	        				<a href="images/dom-2.small.jpg" class="test"><img src="" alt="" class="small-view small-view-3"></a>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="section5" id="section5">
+        		<div class="wrapper-section clearfix">
+        			<p>Выбирайте наиболее подходящую для Вас площадь будущего дома и мы предложим максимально выгодные  условия на строительство </p>
+        			<div class="header-checkbox">
+        					<div class="radio radio-2">
+
+   						 <input id="dom4" type="radio" name="gend" value="dom4">
+
+    					<label for="dom4">Хочу дом до 100 м кв.</label>
+							
+   						 <input id="dom5" type="radio" name="gend" value="dom5">
+
+    						<label for="dom5">Хочу дом от 100 до 150 м кв.</label>
+						
+						<input id="dom6" type="radio" name="gend" value="dom6">
+
+    						<label for="dom6">Хочу дом более 150 м кв.</label>
+					</div> 
+        			</div>
+        		</div>
+        	</div>   
+
+        	<section class="section6" id="section6">
+    			<div class="wrapper-section clearfix">
+       				 <h3 class="block-header line">Что я делаю </h3>
+					<ul class="list">
+ 	
+ 
+           
+      <li class="clearfix" id="bx_3099439860_13">
+                <div class="left">
+                    <div class="description">
+                        <h4>Строительство загородных домов</h4>
+
+                        <p>Я помогу удивить ваших гостей или, наоборот, порадовать виновников торжества необычными видео-поздравлениями.</p>
+                        <a class="link" href="#">посмотреть все выпуски</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img-wrap"><img src="images/350430c9d94a68ee6acf5dbf88608917.jpg" alt=""></div>
+                </div>
+            </li>   
+
+                <li class="clearfix" id="bx_3099439860_12">
+                <div class="left">
+                    <a href="#" class="img-wrap">
+                    <img src="images/780a57d8188f86565246b7aac64bfa4f.jpg" alt="">
+                    </a>
+                </div>
+                <div class="right">
+                    <div class="description">
+                        <h4><a href="#">Инженерные коммуникации</a></h4>
+                        <p>Автомобильный проект, где я помогу каждому&nbsp;&nbsp;подобрать автомобиль, который будет соответствовать именно его потребностям и пожеланиям. Вся правда о новых автомобилях в этой программе.</p>
+                        <a class="link" href="">посмотреть все выпуски</a>
+                    </div>
+                </div>
+            </li>       
+ 
+           
+      <li class="clearfix" id="bx_3099439860_11">
+                <div class="left">
+                    <div class="description">
+                        <h4>Отделочные работы</h4>
+                        <p>Это телевизионный проект в котором вы увидите: кино премьеры и голливудские новости, самые ожидаемые фильмы и рекорды кассовых сборов. Каждый уважающий себя человек должен быть в курсе того, что происходит в мире кино.</p>
+                        <a class="link" href="">посмотреть все выпуски</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img-wrap"><img src="images/7e7f9acb7860a1db1e9f0c3a04910cab.jpg" alt=""></div>
+                </div>
+            </li>   
+        
+          
+           
+                <li class="clearfix" id="bx_3099439860_10">
+                <div class="left">
+                    <a href="#" class="img-wrap">
+                    <img src="images/15d0c73587c048c15fe51f334d56355e.jpg" alt="">
+                    </a>
+                </div>
+                <div class="right">
+                    <div class="description">
+                        <h4><a href="#">Геодезия и благоустройство</a></h4>
+                        <p>Кот в мешке никому не нужен. Поэтому, если Вы еще не видели меня в деле, то Вам сюда.</p>
+                        <a class="link" href="">посмотреть все выпуски</a>
+                    </div>
+                </div>
+            </li>          
+		</ul>
+
+    	</div>
+	</section>   
+
+	<section class="section7" id="section7">
+		<div class="wrapper-section clearfix">
+			<h3 class="block-header line">Нам доверяют, нас благодарят </h3>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+			<div class="video-block">
+			 <a class="test" href="#testube"><img alt="" src="images/video.jpg" /></a>
+ 
+			 <div style="display:none" id="testube">
+			 <!-- HTML - код ролика -->
+			<!--<iframe width="560" height="340" src="http://www.youtube.com/embed/kNWtB6VAbAY" frameborder="0" allowfullscreen></iframe>-->
+			</div>
+			</div>
+
+		</div>
+	</section>  
+		<section class="section8" id="section8">
+		<div class="wrapper-section clearfix">
+			<div class="adress-text">
+				<p>Наш адрес:</p>
+				<p>м.Алтуфьево, ул.Новгородская, д.1, стр.5 </p>
+				<p>(бизнес-центр Бизнес-Депо, корпус Б)</p>
+				<p>время работы: <span>понедельник-пятница с 9.00 до 18.00 <br> суббота-воскресенье  по предварительной договоренности</span></p>
+				<p>email: <span>zetproject@yandex.ru</span> тел. <span>8(495)772-11-62</span> </p>
+			</div>
+			<div class="feedback-container">
+				<a href="#?w=500" rel="popup_contact" class="button poplight">Получить предложение</a>
+				<a href="#?w=500" rel="popup_contact-2" class="button poplight">Записаться на просмотр обьектов</a>
+			</div>
+		</div>
+		<script type="text/javascript" charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=urGoU0YZSBmQK0xryiEQMliC9DH9Bdsm&height=450"></script>
+	</section>	
+	<footer>
+		<div class="wrapper-section clear-fix">
+			<p>2014. Все права защищены </p>
+			<p>Создание сайта</p>
+		</div>
+	</footer>
+        </div>
+
+	 <div id="popup_contact" class="popup_block popup-get">
+        <form id="form" action="/" method="post">	
+        	<h3>Вы выбрали "Дом из бруса площадью до 100 м.кв.", оставьте заявку и мы в ближайшее время подготовим для Вас предложение</h3>
+			<fieldset>
+				<p class="first">
+					<label for="name">Имя:</label>
+					<input type="text" name="name" id="name" size="30" />
+				</p>
+				<p>
+					<label for="email">Телефон:</label>
+					<input type="text" name="telephone" id="telephone" size="30" />
+				</p>
+															
+				<p>
+					<label for="message">Сообщение:</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</p>	
+				</fieldset>	
+			<p class="submit"><button type="submit">Отправить</button></p>						
+		</form>
+      </div>
+
+      <div id="popup_contact-2" class="popup_block">
+        <form id="form" action="/" method="post">	
+			<fieldset>
+				<p class="first">
+					<label for="name">Имя:</label>
+					<input type="text" name="name" id="name" size="30" />
+				</p>
+				<p>
+					<label for="email">Телефон:</label>
+					<input type="text" name="telephone" id="telephone" size="30" />
+				</p>
+				<p>
+					<label for="web">Удобное время:</label>
+					<input type="text" name="call" id="call" size="30" />
+				</p>			
+			</fieldset>
+			<fieldset>																			
+				<p>
+					<label for="message">Сообщение:</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</p>								
+			</fieldset>					
+			<p class="submit"><button type="submit">Отправить</button></p>						
+		</form>
+      </div>
+
+</body>
+</html>
