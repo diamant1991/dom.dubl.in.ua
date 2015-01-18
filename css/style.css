@@ -64,7 +64,7 @@
 #section1{
 	position: absolute;
 	top: 0;
-	min-width: 1200px;
+	min-width: 1300px;
 	width: 100%;
 	height: 884px;
 }
@@ -221,7 +221,7 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	min-width: 1200px;
+	min-width: 1300px;
 	position: absolute;
 	top: 885px;
 	width: 100%;
@@ -267,7 +267,7 @@ margin-left: -2px;}
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-		min-width: 1200px;
+		min-width: 1300px;
 		position: absolute;
 		top: 1643px;
 		width: 100%;}
@@ -296,7 +296,7 @@ content: "";
 line-height: 0;
 }
 .section4{
-	min-width: 1200px;
+	min-width: 1300px;
 	position: absolute;
 	top:2393px;
 	width: 100%;
@@ -368,7 +368,7 @@ line-height: 0;
 	float: left;
 }
 .section5{
-	min-width: 1200px;
+	min-width: 1300px;
 	background: url('../images/ae414d60e78c7204961a463a35dfa423.jpg') 50% 50% repeat-x #2D2320;
 	background-size: cover;
 	min-height: 200px;
@@ -486,7 +486,7 @@ input[type="radio"]:checked + label:before {
 	padding: 90px 0 120px;
 	position: absolute;
 	top: 3254px;
-	min-width: 1200px;
+	min-width: 1300px;
 	width: 100%;
 }
 .section6 img{
@@ -547,7 +547,7 @@ top: 1.7em;
 	background: #0c343e;
 	padding-top: 90px;
 	padding-bottom: 90px;
-	min-width: 1200px;
+	min-width: 1300px;
 	position: absolute;
 	top: 4899px;
 	width: 100%;
@@ -631,7 +631,7 @@ top: 1.7em;
 	padding-top: 15px;
 }
 .section8{
-	min-width: 1200px;
+	min-width: 1300px;
 	width: 100%;
 	position: absolute;
 	top: 5619px;
