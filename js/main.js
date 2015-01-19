@@ -17,6 +17,11 @@ function opcl(arr, e){
       classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
       offset: 200 
      });  
+
+  $('.btn').click(function () {
+      $('.gallery-overlay').slideUp();
+    });
+
     
 // Cache selectors
 var lastId,
