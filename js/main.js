@@ -13,15 +13,42 @@ function opcl(arr, e){
    $(".test").fancybox({
             
     });
-  jQuery('.post').addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
-      offset: 200 
+  jQuery('.section2 h2').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
+      offset: -150 
      });  
+    jQuery('.section2 p').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
+      offset: -100 
+     });  
+     jQuery('.section3 h3').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+      offset: -100 
+     });  
+     jQuery('.fadeinup').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+      offset: -100 
+     });  
+     jQuery('.fadeindown').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+      offset: -100 
+     });  
+      jQuery('.fadeinright').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
+      offset: -100 
+     });  
+       jQuery('.fadeinleft').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInLeft', // Class to add to the elements when they are visible
+      offset: -100 
+     });  
+
+  $('.post').addClass('animated fadeIn'); 
+
+
 
   $('.btn').click(function () {
       $('.gallery-overlay').slideUp();
     });
-
     
 // Cache selectors
 var lastId,

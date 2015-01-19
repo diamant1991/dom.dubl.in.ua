@@ -86,13 +86,13 @@
 .img{
 	background: url(../images/header-img.jpg);
 	background-size: cover;
-	background-position: 50% 0%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
 .img-2{
 	background: url(../images/header-img-2.jpg);
 	background-size: cover;
-	background-position: 50% 0%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
 
@@ -214,7 +214,6 @@
 
 .section2{
 	background: url('../images/about.png') no-repeat scroll 50% 100% #332824;
-	background-size: cover;
 	padding: 90px 0;
 	min-height: 755px;
 	width: 100%;
@@ -763,3 +762,17 @@ footer{
     color: #333;
 }
 #top-menu li:before, #top-menu li:after{content:'';position:absolute;right:0;top:50%;-webkit-border-radius:50%;border-radius:50%}
+
+.fadeinleft, .fadeinright{
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay:0.5s;
+	-o-animation-delay:0.5s;
+	-ms-animation-delay:0.5s;
+}
+
+.fadeinup, .fadeindown{
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay:0.5s;
+	-o-animation-delay:0.5s;
+	-ms-animation-delay:0.5s;
+}
