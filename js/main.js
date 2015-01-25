@@ -47,8 +47,11 @@ function opcl(arr, e){
 
 
   $('.btn').click(function () {
-      $('.gallery-overlay').slideUp();
+      $(".gallery-overlay").animate({ top: "-=200"}, 500)
+      .animate({opacity: "0"}, "fast")
+      .slideUp()
     });
+    
     
 // Cache selectors
 var lastId,
