@@ -17,10 +17,15 @@ function opcl(arr, e){
       classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
       offset: -150 
      });  
+  jQuery('.video-desc').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
+      offset: -100 
+     }); 
     jQuery('.section2 p').addClass("hidden").viewportChecker({
       classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
       offset: -100 
-     });  
+     }); 
+
      jQuery('.section3 h3').addClass("hidden").viewportChecker({
       classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
       offset: -100 
@@ -106,6 +111,18 @@ $(window).scroll(function(){
         });
         return false;
     });*/
+var top_show = 130;
+   $(window).scroll(function () { 
+      if ($(this).scrollTop() > top_show) $('.scroll_menu').fadeIn();
+      else $('.scroll_menu').fadeOut();
+    });
+
+$('.up').click(function () {
+      $('body, html').animate({
+        scrollTop: 0
+      }, 1000);
+    });
+
 
 
     });
