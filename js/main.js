@@ -48,7 +48,10 @@ function opcl(arr, e){
      });  
 
   $('.post').addClass('animated fadeIn'); 
-
+$('.small-img').click(function() {
+    $('.small-img').removeClass('active');
+    $(this).addClass('active');
+  });
 
 
   $('.btn').click(function () {
