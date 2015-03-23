@@ -254,8 +254,8 @@
 }
 .header-checkbox img{
 	position: absolute;
-	right: -15px;
-	top: -15px;
+	right: -5px;
+	top: 2px;
 }
 
 .section2{
@@ -713,8 +713,7 @@ top: 1.7em;
 .feedback-container{
 	float: right;
 	width: 420px;
-	background: url(../images/shag3.png) no-repeat;
-	background-position: -22px 1px;
+	background: url(../images/shag3.jpg) no-repeat;
 	height: 170px;
 	padding-top: 37px;
 	padding-left: 20px
@@ -745,17 +744,6 @@ top: 1.7em;
 	color: #dd3b12;
 }
 .feedback-container a{
-	display: block;
-	width: 70%;
-	height: 45px;
-	background: #df684a;
-	margin-bottom: 10px;
-	text-decoration: none;
-	color: #000;
-	font-size: 16px;
-	padding-top: 15px;
-	padding-left: 20px;
-	border: 1px solid #633125;
 	font-family: 'Clinica_Pro_Regular';
 }
 .feedback-container a:nth-child(2){
