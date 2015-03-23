@@ -650,6 +650,7 @@ input[type="radio"]:checked + label:before {
 			text-transform:uppercase;position:absolute;color:#b8aea7;display:inline-block;
 			vertical-align:middle;border-bottom:1px solid transparent;padding-bottom:1px;
 			margin-left:46px;bottom:60px;text-decoration: none;
+			font-family: 'Clinica_Pro_Regular';
 		}
 	
 .section6 .list .description .link:before{content:'';position:absolute;left:-46px;top:50%;margin-top:-11px;background: url(../images/sprite.png) no-repeat;
