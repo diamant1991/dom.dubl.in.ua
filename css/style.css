@@ -117,8 +117,14 @@
 .logo-text img{
 	position: relative;
 	top: 90px;
-	right: 65px;
+	right: 0;
 	z-index: 2;
+}
+.wrapper-sec{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
 }
 .logo-text p{
 	font-family: 'Clinica_Pro_Regular';
