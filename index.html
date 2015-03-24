@@ -19,7 +19,13 @@
 	<script src="js/dm-modal.js"></script>
 	<script src="js/viewportchecker.js"></script>
 	<script src="js/main.js"></script>
-
+    <script src="js/modal.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript">
+    jQuery(function($){
+        $(".telephone").mask("+7 (999) 999-9999");
+    });
+    </script>
 </head>
 <body>
 
@@ -106,9 +112,9 @@
         			<div class="header-checkbox fadeinright">
         				<img src="images/shag.jpg" alt="">
         				<div class="radio">
-                        <a class="button">Получить смету</a><br>
-                        <a class="button">Получить каталог</a><br>
-                        <a class="button">Приехать в офис</a><br>
+                        <a class="button get-estimate">Получить смету</a><br>
+                        <a class="button get-catalog">Получить каталог</a><br>
+                        <a class="button get-office">Приехать в офис</a><br>
    						 <!--<input id="dom1" type="radio" name="gender" value="dom1">
 
     					<label for="dom1">Выбираю дом из бруса</label>
@@ -426,52 +432,38 @@
 	</footer>
         </div>
 
-	 <div id="popup_contact" class="popup_block popup-get">
-        <form id="form" action="/" method="post">	
-        	<h3>Вы выбрали "Дом из бруса площадью до 100 м.кв.", оставьте заявку и мы в ближайшее время подготовим для Вас предложение</h3>
-			<fieldset>
-				<p class="first">
-					<label for="name">Имя:</label>
-					<input type="text" name="name" id="name" size="30" />
-				</p>
-				<p>
-					<label for="email">Телефон:</label>
-					<input type="text" name="telephone" id="telephone" size="30" />
-				</p>
-															
-				<p>
-					<label for="message">Сообщение:</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				</p>	
-				</fieldset>	
-			<p class="submit"><button type="submit">Отправить</button></p>						
-		</form>
-      </div>
+	 
 
-      <div id="popup_contact-2" class="popup_block">
-        <form id="form" action="/" method="post">	
-			<fieldset>
-				<p class="first">
-					<label for="name">Имя:</label>
-					<input type="text" name="name" id="name" size="30" />
-				</p>
-				<p>
-					<label for="email">Телефон:</label>
-					<input type="text" name="telephone" id="telephone" size="30" />
-				</p>
-				<p>
-					<label for="web">Удобное время:</label>
-					<input type="text" name="call" id="call" size="30" />
-				</p>			
-			</fieldset>
-			<fieldset>																			
-				<p>
-					<label for="message">Сообщение:</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				</p>								
-			</fieldset>					
-			<p class="submit"><button type="submit">Отправить</button></p>						
-		</form>
+      <div class="form-mask"></div>
+      <div class="form" id="estimate">
+          <form action="">
+              <h3>Понравился этот дом?!</h3>
+              <p>Оставьте ваши контактные данные и наш консультант свяжется с вами в течении 30 секунд</p>
+              <input type="text" placeholder="Введите ваше имя"><br>
+              <input type="text" placeholder="Введите ваш E-mail"><br>
+              <input type="text" placeholder="Введите ваш телефон" class="telephone"><br>
+              <input type="submit" value="Получить смету">
+          </form>
+      </div>
+      <div class="form" id="project">
+          <form action="">
+              <h3>Не нашли подходящий проект?!</h3>
+              <p>Оставьте ваши контактные данные и наш консультант свяжется с вами в течении 30 секунд</p>
+              <input type="text" placeholder="Введите ваше имя"><br>
+              <input type="text" placeholder="Введите подходящую площадь дома"><br>
+              <input type="text" placeholder="Введите ваш телефон" class="telephone"><br>
+              <input type="submit" value="Подобрать проект">
+          </form>
+      </div>
+      <div class="form" id="office">
+          <form action="">
+              <h3>Получи консультацию в офисе!</h3>
+              <p>Оставьте ваши контактные данные и наш консультант свяжется с вами в течении 30 секунд</p>
+              <input type="text" placeholder="Введите ваше имя"><br>
+              <input type="text" placeholder="Введите дату приезда"><br>
+              <input type="text" placeholder="Введите ваш телефон" class="telephone"><br>
+              <input type="submit" value="Приехать в офис">
+          </form>
       </div>
 
 </body>
