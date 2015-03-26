@@ -24,6 +24,8 @@
     <script type="text/javascript">
     jQuery(function($){
         $(".telephone").mask("+7 (999) 999-9999");
+        $("#date").mask("99/99/2015");
+        $("#come").mask("(9999)м.кв");
     });
     </script>
 </head>
@@ -450,7 +452,7 @@
               <h3>Не нашли подходящий проект?!</h3>
               <p>Оставьте ваши контактные данные и наш консультант свяжется с вами в течении 30 секунд</p>
               <input type="text" placeholder="Введите ваше имя"><br>
-              <input type="text" placeholder="Введите подходящую площадь дома"><br>
+              <input type="text" placeholder="Введите подходящую площадь дома" id="come"><br>
               <input type="text" placeholder="Введите ваш телефон" class="telephone"><br>
               <input type="submit" value="Подобрать проект">
           </form>
@@ -460,7 +462,7 @@
               <h3>Получи консультацию в офисе!</h3>
               <p>Оставьте ваши контактные данные и наш консультант свяжется с вами в течении 30 секунд</p>
               <input type="text" placeholder="Введите ваше имя"><br>
-              <input type="text" placeholder="Введите дату приезда"><br>
+              <input type="text" placeholder="Введите дату приезда" id="date"><br>
               <input type="text" placeholder="Введите ваш телефон" class="telephone"><br>
               <input type="submit" value="Приехать в офис">
           </form>
