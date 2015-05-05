@@ -1144,3 +1144,90 @@ span.num i {
 	margin-top: 25px;
 	width:263px;
 }
+.fancy-container a{
+	cursor: pointer;
+}
+
+.project-form{
+	width: 1200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	z-index: 10000;
+	background-color: #484d53;
+	padding-bottom: 20px;
+	text-align: center;
+	display: none;
+}
+.clearfix:after{
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+}
+.form-proj-link{
+	cursor: pointer;
+}
+.form-mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: none;
+}
+.plan{
+	float: left;
+	width: 315px;
+	margin-right: 45px;
+}
+	.plan img{
+		border:2px solid #2fad64;
+	}
+.project-form h3{
+	color: #fff;
+	font-family: 'BebasNeueBold';
+	font-size: 20px;
+	padding: 10px 0;
+}
+.bottom-block{
+	width: 1120px;
+	margin: auto;
+}
+.form-proj{
+	width: 400px;
+	float: left;
+	padding-top: 25px;
+}
+.form-proj input {
+  width: 100%;
+  margin: 15px 0;
+  height: 55px;
+  text-align: center;
+  border-radius: 40px;
+  outline: 0;
+  border: 0;
+  font-size: 20px;
+  color: #fff;
+}
+.form-proj input[type="text"] {
+  background-color: transparent;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+	.form-proj input[type="text"]:focus{
+		border: 1px solid #2fad64;
+	}
+.form-proj input[type="submit"] {
+  background-color: #2fad64;
+  cursor: pointer;
+}
+.form-proj input[type="text"]::-webkit-input-placeholder {color:#fff;}
+.form-proj input[type="text"]::-moz-placeholder          {color:#fff;}
+.form-proj input[type="text"]:-moz-placeholder           {color:#fff;}
+.form-proj input[type="text"]:-ms-input-placeholder      {color:#fff;}
