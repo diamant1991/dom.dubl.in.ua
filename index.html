@@ -21,11 +21,17 @@
 	<script src="js/main.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
     <script type="text/javascript">
     jQuery(function($){
         $(".telephone").mask("+7 (999) 999-9999");
         $("#date").mask("99/99/2015");
-        $("#come").mask("(9999)м.кв");
+        //$("#come").mask("(999)м.кв");
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $('#come').inputmask("(999)м.кв");
     });
     </script>
 </head>
