@@ -55,7 +55,7 @@ $('.small-img').click(function() {
 
 
   $('.btn').click(function () {
-      $(".gallery-overlay").animate({ top: "-=200"}, 500)
+      $(this).parent(".gallery-overlay").animate({ top: "-=200"}, 500)
       .animate({opacity: "0"}, "fast")
       .slideUp()
     });
