@@ -1,22 +1,22 @@
-$(document).ready(function() {
-	$('input,textarea').focus(function(){
-	  $(this).data('placeholder',$(this).attr('placeholder'))
-	  $(this).attr('placeholder','');
-	});
-	$('input,textarea').blur(function(){
-	  $(this).attr('placeholder',$(this).data('placeholder'));
-	});
+$(document).ready(0);
+	        $('#estimate').attr({'visfunction() {
+    $('input,textarea').focus(function(){
+      $(this).data('placeholder',$(this).attr('placeholder'))
+      $(this).attr('placeholder','');
+    });
+    $('input,textarea').blur(function(){
+      $(this).attr('placeholder',$(this).data('placeholder'));
+    });
 
-	$('.get-estimate').click(function(){
-   		if($('#estimate').attr('visible')!='true'){
-	   		$('.form-mask').fadeIn(400);
-	        $('#estimate').fadeIn(400);
-	        $('#estimate').attr({'visible':'true'})
-	  	}
-	  	else{
-   			$('.form-mask').fadeOut(400);
-        	$('#estimate').fadeOut(400);
-	        $('#estimate').attr({'visible':'false'})
+    $('.get-estimate').click(function(){
+        if($('#estimate').attr('visible')!='true'){
+            $('.form-mask').fadeIn(400);
+            $('#estimate').fadeIn(400);
+            $('#estimate').attr({'visible':'true'})
+        }
+        else{
+            $('.form-mask').fadeOut(400);
+            $('#estimate').fadeOut(40ible':'false'})
 	  	}
 	})
 	$('.get-catalog').click(function(){

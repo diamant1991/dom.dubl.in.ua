@@ -1156,8 +1156,10 @@ span.num i {
 	z-index: 10000;
 	background-color: #484d53;
 	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	text-align: center;
-	display: none;
+	display: block;
 }
 .clearfix:after{
 	clear: both;
@@ -1231,3 +1233,19 @@ span.num i {
 .form-proj input[type="text"]::-moz-placeholder          {color:#fff;}
 .form-proj input[type="text"]:-moz-placeholder           {color:#fff;}
 .form-proj input[type="text"]:-ms-input-placeholder      {color:#fff;}
+
+
+.project-wrapp{
+	position: fixed;
+	z-index: 1111111;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top: 0;
+	overflow: auto;
+	display: none;
+	background: rgba(0,0,0,0.5);
+}
+body.modal-open{
+	overflow: hidden;
+}
