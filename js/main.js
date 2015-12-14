@@ -13,6 +13,19 @@ function opcl(arr, e){
    $(".test").fancybox({
             
     });
+
+   $(".photo-fancy").fancybox({
+      openEffect  : 'elastic',
+      closeEffect : 'elastic',
+
+      helpers : {
+        title : {
+          type : 'inside'
+        }
+      }
+    });
+
+
   jQuery('.section2 h2').addClass("hidden").viewportChecker({
       classToAdd: 'visible animated fadeInRight', // Class to add to the elements when they are visible
       offset: -150 
@@ -175,15 +188,7 @@ $('.up').click(function () {
   });
   
 
-    $(document).mouseup(function (e) {
-        var container = $(".project-form");
-        if (container.has(e.target).length === 0){
-            container.fadeOut(400);
-            $('.project-wrapp').fadeOut(400);
-            $('body').removeClass('modal-open');
-            $('.project-form').hide();
-        }
-    });
+   
 
 
 

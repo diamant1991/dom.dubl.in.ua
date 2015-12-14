@@ -36,7 +36,12 @@
         $('#come').inputmask("(999)м.кв");
         $('.come-in').inputmask("(999)м.кв");
     });
+        $(window).on('load', function () {
+        $spinner   = $('.spinner');
+        $spinner.fadeOut(600);
+});
     </script>
+
 </head>
 <body>
 
@@ -99,6 +104,7 @@
             				<img src="images/logo.png" alt="">
             			</div>
                     </div>
+                    <span class="spinner"></span>
         		</div>
         		<div class="img-2">
                     <div class="wrapper-sec">
@@ -292,7 +298,11 @@
                     </div>
                 </div>
                 <div class="right fadeinright">
-                    <div class="img-wrap"><img src="images/350430c9d94a68ee6acf5dbf88608917.jpg" alt=""></div>
+                    <div class="img-wrap">
+                        <a class="photo-fancy" href="images/350430c9d94a68ee6acf5dbf88608917.jpg">
+                        <img src="images/350430c9d94a68ee6acf5dbf88608917.jpg" alt="" />
+                    </a>
+                    </div>
                 </div>
             </li>   
 
